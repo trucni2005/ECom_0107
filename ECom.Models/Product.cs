@@ -20,7 +20,7 @@ namespace ECom.Models
         public int? ManufactureId { get; set; }
         public Manufacture? Manufacture { get; set; }
         public Specification? Specification { get; set; }
-        [MaxLength(256)]
+        [MaxLength(2560)]
         public string Description {get; set;}
         [Range(0,100000)]
         public decimal Price { get; set; }
